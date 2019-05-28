@@ -1,13 +1,16 @@
-import java.util.Scanner;
+import java.util.*;
+//fixed import
 
 public class personA {
 
 	public static void main(String[] args) {
-		System.out.println("Please type in two integers for the average");
+		System.out.println("Type in two ints");
+		//fixed grammar
 		Scanner scan = new Scanner(System.in);
-		int first = scan.nextInt();
-		int second = scan.nextInt();
-		double avg = (first + second) / 2.0;
+		int one = scan.nextInt();
+		int two = scan.nextInt();
+		//fixed names
+		double avg = (one + two) / 2.0;
 		System.out.println("The average is " + avg);
 	}
 
